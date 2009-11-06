@@ -25,7 +25,7 @@ public class SMS extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        String receiver = "92056946"; // the phone number of the device to send the SMS message to.
+        String receiver = "12345678"; // the phone number of the device to send the SMS message to.
         String message = "This is the SMS message I want to sending";
         sendSMS(receiver,message);
         
